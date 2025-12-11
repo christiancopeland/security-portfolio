@@ -1,0 +1,20 @@
+title: Christian Copeland
+description: Security Operations Professional | SIEM, IDS/IPS, Threat Detection
+theme: jekyll-theme-midnight
+show_downloads: false
+
+author:
+  name: Christian Copeland
+  email: your.email@example.com
+  github: christiancopeland
+  linkedin: your-linkedin-url
+
+navigation:
+  - title: Projects
+    url: /#projects
+  - title: Blog
+    url: /blog
+  - title: Resume
+    url: /resume.pdf
+  - title: Contact
+    url: /#contact
