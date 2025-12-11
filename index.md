@@ -1,6 +1,18 @@
 # Security Operations Professional
 
-CompTIA Security+ certified with hands-on experience in SIEM deployment, IDS/IPS configuration, and security automation. Currently managing enterprise security infrastructure at Viapath Technologies while maintaining personal security operations lab for continuous skill development in threat detection and incident response.
+CompTIA Security+ certified and actively developing SOC analyst capabilities through 
+comprehensive hands-on practice. Currently working in enterprise infrastructure support 
+while building advanced security operations skills through personal homelab environment. 
+
+Deployed and configured full enterprise security stack including Wazuh SIEM, Suricata 
+IDS/IPS, Security Onion, TheHive, and Caldera for hands-on experience with threat 
+detection, incident response, and security automation. Combines practical understanding 
+of enterprise network infrastructure with proven ability to learn and apply security 
+technologies independently.
+
+Seeking Security Operations Center (SOC) Analyst position to transition from 
+infrastructure support to security operations, applying hands-on SIEM configuration, 
+threat hunting, and incident response skills in a professional environment.
 
 ---
 
