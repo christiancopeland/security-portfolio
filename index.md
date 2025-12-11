@@ -164,7 +164,7 @@ Real-time packet capture and analysis dashboard with AI-powered insights, demons
 **LinkedIn:** [linkedin.com/in/christian-copeland37](https://www.linkedin.com/in/christian-copeland37)  
 **GitHub:** [github.com/christiancopeland](https://github.com/christiancopeland)
 
-📄 [Download Resume (PDF)](./resume.pdf)
+📄 [Download Resume (PDF)](./ChristianCopeland_Resume_SOC.pdf)
 
 ---
 
