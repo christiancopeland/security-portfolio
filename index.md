@@ -149,7 +149,7 @@ Real-time packet capture and analysis dashboard with AI-powered insights, demons
 ## Contact
 
 **Email:** christiancopeland37@gmail.com  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/christian-copeland37)  
+**LinkedIn:** [linkedin.com/in/christian-copeland37](https://www.linkedin.com/in/christian-copeland37)  
 **GitHub:** [github.com/christiancopeland](https://github.com/christiancopeland)
 
 📄 [Download Resume (PDF)](./resume.pdf)
