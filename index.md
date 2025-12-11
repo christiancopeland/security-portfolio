@@ -1,110 +1,159 @@
 # Security Operations Professional
 
-CompTIA Security+ certified with hands-on experience in SIEM deployment, 
-IDS/IPS configuration, and security automation. Currently managing enterprise 
-security infrastructure while building advanced homelab for threat detection 
-and incident response practice.
+CompTIA Security+ certified with hands-on experience in SIEM deployment, IDS/IPS configuration, and security automation. Currently managing enterprise security infrastructure at Viapath Technologies while maintaining personal security operations lab for continuous skill development in threat detection and incident response.
+
+---
 
 ## Featured Projects
 
 ### 🔒 Security Operations Homelab
-Enterprise-grade security monitoring environment with Wazuh SIEM, Suricata IDS/IPS, 
-and automated threat detection.
+Enterprise-grade security monitoring environment built for hands-on practice with detection engineering, incident response, and security automation.
 
-**Key Achievements:**
-- Deployed SIEM across 15+ endpoints with custom correlation rules
-- Reduced false positive alerts by 35% through rule tuning
-- Automated security tasks reducing manual effort by 60%
+**Deployed Technologies:**
+- **SIEM:** Wazuh with agents across Linux, Windows, and network infrastructure
+- **IDS/IPS:** Suricata for network traffic analysis
+- **Full Stack NSM:** Security Onion for comprehensive network monitoring
+- **Vulnerability Management:** Nessus scanner
+- **Incident Response:** TheHive + Cortex
+- **Adversary Emulation:** Caldera for attack simulations
+- **Infrastructure:** pfSense firewall with VLAN segmentation (DMZ, internal, management zones)
 
-[View Documentation →](./homelab)
+**Practice Environment:**
+- Vulnerable machines (Metasploitable, DVWA, BWAPP) for exploit testing
+- Windows Server 2022 + Windows 10 for enterprise simulation
+- Kali Linux for penetration testing
+- Proxmox virtualization platform
+
+**Skills Developed:**
+- SIEM configuration, agent deployment, log analysis
+- IDS/IPS signature tuning and network forensics
+- Incident case management and investigation workflows
+- Attack simulation and detection rule development
+
+[View Lab Architecture →](./homelab) *(Documentation in progress)*
 
 ---
 
 ### 🔐 Terminal-PGP: Encrypted Chat Application
-Secure terminal-based chat with end-to-end PGP encryption, demonstrating 
-understanding of cryptographic protocols and secure communications.
+Secure terminal-based chat application demonstrating understanding of cryptographic protocols, secure communications, and network programming.
 
-**Technical Highlights:**
+**Technical Implementation:**
 - End-to-end encryption using PGP/GPG
-- Client-server architecture with socket programming
+- Client-server architecture with Python socket programming
 - Multi-user group chat with pairwise encryption
+- TLS transport layer security
+- Terminal UI using Textual framework
+
+**Security Concepts Demonstrated:**
+- Asymmetric encryption and digital signatures
+- Key management and secure storage
+- Authentication and message integrity
+- Defense-in-depth (E2E encryption + TLS)
+
+**Relevant to SOC Work:**
+- Understanding of encryption protocols
+- Ability to analyze encrypted traffic patterns
+- Experience with secure communication systems
+- Network socket programming fundamentals
 
 [View Project →](https://github.com/christiancopeland/terminal-pgp)  
-[Read Technical Writeup →](./blog/terminal-pgp-architecture)
+[Technical Writeup →](./blog/terminal-pgp-architecture) *(Coming soon)*
 
 ---
 
 ### 📊 Network Traffic Analyzer
-Real-time packet capture and analysis dashboard with AI-powered insights, 
-demonstrating network forensics and traffic analysis capabilities.
+Real-time packet capture and analysis dashboard with AI-powered insights, demonstrating network forensics and traffic analysis capabilities.
 
-**Technical Highlights:**
+**Technical Implementation:**
 - Live packet capture using Scapy
-- Protocol analysis and visualization
-- AI-powered traffic pattern detection
-- Interactive web dashboard
+- Protocol analysis and classification
+- Network relationship mapping with NetworkX
+- AI-generated traffic insights using local LLM (Ollama)
+- Interactive web dashboard (Dash/Plotly)
+
+**Security Analysis Features:**
+- Port scan detection
+- Protocol anomaly identification
+- Data exfiltration indicators
+- Network behavior visualization
+
+**SOC Analyst Applications:**
+- Network forensics during incident response
+- Identifying C2 (Command & Control) traffic
+- Mapping lateral movement in compromised networks
+- Automated triage of network events
 
 [View Project →](https://github.com/christiancopeland/traffic-analysis)  
-[Read Technical Writeup →](./blog/network-traffic-analysis)
+[Technical Writeup →](./blog/network-traffic-analysis) *(Coming soon)*
 
 ---
 
 ## Skills & Expertise
 
-**Security Operations**
-- SIEM (Wazuh), IDS/IPS (Suricata)
-- Log analysis & threat hunting
-- Incident response & triage
+### Security Operations
+- SIEM (Wazuh), IDS/IPS (Suricata), Full packet capture analysis
+- Log analysis, threat hunting, alert triage
+- Incident response, case management (TheHive)
 - Security automation (Python, Ansible)
+- Vulnerability assessment (Nessus)
 
-**Network Security**
-- Packet analysis (Wireshark, Scapy)
-- Network segmentation & VLANs
-- Firewall configuration (pfSense)
-- SSL/TLS, VPN, encryption protocols
+### Network Security
+- Packet analysis (Wireshark, Scapy, tcpdump)
+- Network segmentation, VLANs, firewall configuration (pfSense)
+- Protocol analysis (TCP/IP, HTTP, DNS, TLS)
+- Network forensics and traffic pattern recognition
 
-**Programming & Automation**
-- Python (security scripting, automation)
-- Bash scripting
-- Ansible playbooks
+### Programming & Automation
+- Python (security scripting, tool development, automation)
+- Bash scripting for system administration
+- Ansible playbooks for infrastructure automation
 - Git version control
 
-**Tools & Platforms**
+### Tools & Platforms
 - Linux administration (Ubuntu, CentOS)
 - Virtualization (Proxmox)
-- Penetration testing (Kali, Metasploit)
-- CTF platforms (HackTheBox, TryHackMe)
+- Penetration testing tools (Kali, Metasploit, Nmap)
+- CTF practice platforms (HackTheBox, TryHackMe)
+- Docker containerization
 
 ---
 
-## Recent Blog Posts
+## Professional Experience
 
-📝 [Building a SIEM Lab: Wazuh Deployment & Custom Rules](./blog/wazuh-siem-deployment)  
-📝 [Detecting Port Scans with Suricata IDS](./blog/suricata-port-scan-detection)  
-📝 [Automating SSH Hardening with Ansible](./blog/ansible-ssh-hardening)  
-📝 [Terminal-PGP Architecture Deep Dive](./blog/terminal-pgp-architecture)
+**Site Administration Technician 3** | *Viapath Technologies* | *May 2025 - Present*
+- Manage security infrastructure for secure communication systems in correctional facility
+- Monitor and maintain enterprise network infrastructure (Cisco switches, Ubiquiti APs)
+- Identify and escalate security incidents and network anomalies
+- Collaborate with IT security team on incident investigations
 
-[View All Posts →](./blog)
+**Field Service Client Administrator** | *Aventiv / Securus* | *Oct 2024 - May 2025*
+- Provided technical support for secure communication platform
+- Documented support interactions for knowledge base development
+- Escalated security concerns with detailed troubleshooting documentation
+
+**Junior Embedded Systems Engineer** | *Dave's Radio Controlled Electronics* | *Sept 2022 - Present*
+- Develop firmware for battery monitoring systems using C/Arduino
+- Implement secure communication protocols between embedded hardware and mobile apps
+- Hardware security analysis and circuit design
 
 ---
 
 ## Certifications
 
-**CompTIA Security+** (2024)  
-**Google IT Automation with Python** (2023)  
-**Google IT Support Professional** (2023)
+**CompTIA Security+** | *2024*  
+**Google IT Automation with Python Professional Certificate** | *2023*  
+**Google IT Support Professional Certificate** | *2023*
 
 ---
 
 ## Contact
 
-**Email:** your.email@example.com  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com)  
-**GitHub:** [github.com/christiancopeland](https://github.com/christiancopeland)  
+**Email:** christiancopeland37@gmail.com  
+**LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/christian-copeland37)  
+**GitHub:** [github.com/christiancopeland](https://github.com/christiancopeland)
 
 📄 [Download Resume (PDF)](./resume.pdf)
 
 ---
 
-*Currently seeking Security Operations Center (SOC) Analyst positions where I can 
-apply threat detection, incident response, and security automation skills.*
+*Currently seeking Security Operations Center (SOC) Analyst positions where I can apply hands-on experience with SIEM, IDS/IPS, threat detection, and incident response.*
